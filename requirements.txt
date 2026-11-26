@@ -1,5 +1,5 @@
 google-genai>=3.6.1
 requests>=2.32.0
-feedparser>=6.0.11
+feedparser>=6.0.14
 ddgs>=9.0.0
 beautifulsoup4>=4.15.0
