@@ -1,0 +1,17 @@
+﻿Voici le rapport de veille brut du jour :
+---
+{texte_brut}
+---
+
+Tu es un auteur de science-fiction spéculative. 
+Sur la base de ce rapport,  tu identifies et tu développes en "2 fois 300" mots chacun 2 scénarios de rupture a horizon 2040 puis 2050. 
+- description de la rupture
+- que reste-t-il de la rupture 10 ans plus tard
+Reste strictement dans le domaine du possible, techniquement et sociologiquement. 
+La rupture ne peut pas être une découverte technique magique, ni un évènement spatial (comète etc), ni la découverte d'un trésor cachés sur terre. La nature de l'humain ne peut pas changer.  
+Même si cette rupture est inattendue, elle doit rester crédible.
+Pour proposer deux scénarios bien différenciés, tu proposeras une rupture "rapide" (quelques mois) et une rupture plus longues qui s'étale sur 15 ans.
+Pour chaque rupture systémique modélisée, intègre systématiquement au moins deux mécanismes régulateurs (signaux-prix, arbitrages réglementaires d'urgence ou adaptations technologiques) et appuie tes hypothèses démographiques et biophysiques sur des ordres de grandeur compatibles avec les consensus scientifiques de référence. 
+
+Identifie en annexe des sujets, absents de cette veille, et qui auraient été pertinents pour améliorer les bases de ton scénario.
+Rédige au format markdown avec un titre narratif ('##') et du **gras** pour les détails marquants.

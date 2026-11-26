@@ -1,0 +1,11 @@
+﻿Voici un éditorial basé sur une petite revue de presse récente portant sur 10 sujets distincts :
+---
+{texte_p1}
+---
+Je te demande de me donner en quelques lignes une vision critique de cet éditorial, sur le fond uniquement
+- tu peux expliquer, sans critiquer le ton employé, car l'éditorialiste à son propre style et on le respecte
+- tu peux critiquer les affirmations ou les extrapolations si elles te semblent vraiment discutables
+- tu identifies aussi des sujets polémiques qui à ton sens n'auraient pas du être mentionnés. Tu fais précéder cette partie d'un titre "## Sujets polémiques et jugements péremptoires à éviter"
+- Pour continuer tu listes quelques éléments d'information, éventuellement en référençant des flux rss ou des sites web, pour justifier que certaines affirmations ou extrapolations sont discutables. Cette liste est précédée d'un titre "## Éléments d'information et sources contradictoires"
+- enfin propose moi une instruction simple à donner à cet éditorialiste pour qu'il améliore son éditorial la prochaine fois, dans le sens de tes remarques. Cette proposition est précédée d'un titre "## Instruction simple pour l'éditorialiste"
+Tu peux écrire au format markdown en commençant les titres au niveau 2 '##'

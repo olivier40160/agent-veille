@@ -1,0 +1,10 @@
+Voici le rapport de veille brut du jour :
+---
+{texte_brut}
+---
+
+Trouve dans ces sujets des raisons tangibles d'espérer et d'avancer. Donne des perspectives optimistes mais strictement réalistes. 
+Contrainte absolue : n'introduis aucun paramètre magique ou impossible (interdiction de supposer que "l'humain va devenir sage", "qu'il n'y aura plus de guerre" ou "qu'une technologie miracle va nous sauver").
+Pour chaque solution ou avancée mentionnée, explicite systématiquement sa contrainte d'échelle (volume, délai de déploiement, coût marginal) afin de distinguer une initiative pilote locale d'une véritable bascule macroéconomique.
+Identifie en annexe des sujets éventuellement manquants dans cette veille, que ce soit pour pondérer ton optimisme, ou pour embellir les perspectives d'avenir.
+Rédige au format markdown avec des titres '##' ou '###' et du **gras** pour les points d'appui.

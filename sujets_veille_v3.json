@@ -1,0 +1,274 @@
+[
+  {
+    "id": "climat_emissions",
+    "sujet": "Climat, Émissions CO2 & Bilan Global",
+    "sources": [
+      {"type": "search", "query": "emissions CO2 mondial bilan energie 2026","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aiea.org+emissions+climate+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aunep.org+climate+emissions+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://www.carbonbrief.org/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.realclimate.org/?s=AMOC&feed=atom","limit": 4},
+      {"type": "rss","url": "https://www.carbonbrief.org/feed/","keywords": ["china", "america", "europe", "india", "Indonesia", "nigeria"], "limit": 10},
+      {"type": "rss","url": "https://www.carbonbrief.org/feed/","keywords": ["tipping", "AMOC", "permafrost", "Amazon", "methane", "circulation"], "limit": 4}
+    ]
+  },
+  {
+    "id": "matieres_premieres",
+    "sujet": "Matières Premières, Minéraux Stratégiques & Mines",
+    "sources": [
+      {"type": "search", "query": "critical minerals supply chain lithium rare earths","limit": 4},
+      {"type": "rss", "url": "https://www.mining.com/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/metals.xml","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Acsis.org+critical+minerals+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "search", "query": "site:ceew.in critical minerals global south","limit": 4}
+    ]
+  },
+  {
+    "id": "energie_transition",
+    "sujet": "Énergie, Transition, EROI & Déplétion Amont",
+    "sources": [
+      {"type": "search", "query": "transition energetique contraintes physiques EROI net energy","limit": 4},
+      {"type": "rss", "url": "https://jancovici.com/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCTObjynP95JgicJSTiPlbiw","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCGv05UJHKH5EclUmms753Zw","limit": 4},
+      {"type": "search", "query": "site:youtube.com \"Jean-Marc Jancovici\" video","limit": 4},
+      {"type": "rss", "url": "https://theshiftproject.org/feed/","limit": 4},
+      {"type": "rss", "url": "https://ieefa.org/rss.xml","limit": 4},
+      {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/oil.xml","limit": 4},
+      {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/electric-power.xml","limit": 4},
+      {"type": "rss", "url": "https://ourworldindata.org/atom.xml","limit": 4},
+      {"type": "rss", "url": "https://oilprice.com/rss/main","limit": 4},
+      {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/energy-transition.xml","limit": 4},
+      {"type": "search", "query": "conventional oil field depletion rate upstream capex IEA","limit": 4}
+    ]
+  },
+  {
+    "id": "ressources_eau_hydrologie",
+    "sujet": "Eau Douce, Aquifères & Stress Hydrique Global",
+    "sources": [
+      {"type": "search", "query": "global groundwater depletion aquifer stress","limit": 4},
+      {"type": "search", "query": "river basin crisis","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Awri.org+water+stress+drought+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aunesco.org+water+report+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Abrgm.fr+nappes+eau+secheresse+when%3A14d&hl=fr&gl=FR&ceid=FR:fr","limit": 4}
+    ]
+  },
+  {
+    "id": "echange_commerce",
+    "sujet": "Échanges Internationaux, Commerce & Routes Maritimes",
+    "sources": [
+      {"type": "search", "query": "global trade corridors maritime supply chain","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aunctad.org+maritime+trade+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://www.wto.org/english/res_e/wto_rss_e.xml","limit": 4},
+      {"type": "search", "query": "Baltic Exchange dry bulk index daily update","limit": 4},
+      {"type": "search", "query": "international maritime freight supply chain news","limit": 4}
+    ]
+  },
+  {
+    "id": "transport_infra",
+    "sujet": "Industrie, Transport & Éco-conception des Infrastructures",
+    "sources": [
+      {"type": "search", "query": "global freight rail shipping industrial decarbonization infrastructure","limit": 4},
+      {"type": "rss", "url": "https://solar.lowtechmagazine.com/feeds/all-en.atom.xml","limit": 4},
+      {"type": "rss", "url": "https://www.irena.org/rss/news","limit": 4},
+      {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/shipping.xml","limit": 4}
+    ]
+  },
+  {
+    "id": "macro_finance_dette_souveraine",
+    "sujet": "Macro-Économie, Dette Souveraine & Système Monétaire",
+    "sources": [
+      {"type": "search", "query": "G20 sovereign debt fiscal deficit bond yields central banks","limit": 4},
+      {"type": "rss", "url": "https://www.imf.org/en/News/RSS","limit": 4},
+      {"type": "rss", "url": "https://www.bis.org/doclist/rss_all_categories.rss","limit": 4},
+      {"type": "rss", "url": "https://bruegel.org/feed","limit": 4},
+      {"type": "rss","url": "https://www.bis.org/doclist/rss_all_categories.rss","keywords": ["shadow", "non-bank", "NBFI", "repo", "clearing", "systemic", "derivatives", "stability"], "limit": 4}
+    ]
+  },
+  {
+    "id": "geopolitique_globale",
+    "sujet": "Géopolitique, Équilibrages Régionaux & Méditerranée",
+    "sources": [
+      {"type": "search", "query": "geopolitique mediterannee enjeux strategiques","limit": 4},
+      {"type": "rss", "url": "https://fmes-france.org/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCiA0rZkOWms0MVkRm8Q0qBA","limit": 4},
+      {"type": "rss", "url": "https://www.chathamhouse.org/rss/news.xml","limit": 4},
+      {"type": "rss", "url": "https://bruegel.org/feed","limit": 4},
+      {"type": "rss", "url": "https://www.ifri.org/fr/rss.xml","limit": 4}
+    ]
+  },
+  {
+    "id": "perspectives_eurasie_russie",
+    "sujet": "Perspectives Locales : Eurasie, Russie & Espace Post-Soviétique",
+    "sources": [
+      {"type": "search", "query": "russia trade routes sanctions","limit": 4},
+      {"type": "search", "query": "eurasia trade routes sanctions","limit": 4},
+      {"type": "rss", "url": "https://carnegieendowment.org/rss/solr/?q=&author=&region=Eurasia","limit": 4},
+      {"type": "search", "query": "site:valdaiclub.com economy sanctions trade","limit": 4}
+    ]
+  },
+  {
+    "id": "perspectives_asie",
+    "sujet": "Perspectives Locales : Asie, Chine & Sud-Est Asiatique",
+    "sources": [
+      {"type": "search", "query": "economy tech supply chain china asia","limit": 4},
+      {"type": "rss", "url": "https://www.lowyinstitute.org/rss.xml","limit": 4},
+      {"type": "rss", "url": "https://www.scmp.com/rss/91/feed","limit": 4},
+      {"type": "search", "query": "site:globaltimes.cn china economy asia","limit": 4}
+    ]
+  },
+  {
+    "id": "perspectives_moyen_orient_afrique",
+    "sujet": "Perspectives Locales : Moyen-Orient & Afrique",
+    "sources": [
+      {"type": "search", "query": "middle east africa geopolitics investments","limit": 4},
+      {"type": "rss", "url": "https://www.chathamhouse.org/rss/regions/middle-east-and-north-africa","limit": 4},
+      {"type": "rss", "url": "https://issafrica.org/rss/feed","limit": 4},
+      {"type": "rss", "url": "https://www.aljazeera.com/xml/rss/all.xml","limit": 4}
+    ]
+  },
+  {
+    "id": "perspectives_amerique_latine",
+    "sujet": "Perspectives Locales : Amérique Latine & Caraïbes",
+    "sources": [
+      {"type": "search", "query": "america latina comercio economia geopolitica","limit": 4},
+      {"type": "rss", "url": "https://www.cepal.org/en/rss/noticias/rss.xml","limit": 4},
+      {"type": "search", "query": "site:americasquarterly.org economy politics","limit": 4},
+      {"type": "search", "query": "site:telesurtv.net geopolitica america latina","limit": 4}
+    ]
+  },
+  {
+    "id": "demographie_forces_actives",
+    "sujet": "Démographie, Déclin de la Fécondité & Forces Actives",
+    "sources": [
+      {"type": "search", "query": "demographic decline fertility rate workforce East Asia Europe","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Ained.fr+fecondite+vieillissement+when%3A14d&hl=fr&gl=FR&ceid=FR:fr","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aun.org+world+population+fertility+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aworldbank.org+aging+population+labor+force+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://www.ecdc.europa.eu/en/taxonomy/term/2942/feed", "limit": 4}
+    ]
+  },
+  {
+    "id": "prospective_societe",
+    "sujet": "Culture, Prospective & Débats de Société",
+    "sources": [
+      {"type": "search", "query": "mutations anthropologiques philosophie technique","limit": 4},
+      {"type": "rss", "url": "https://thinkerview.com/feed/","limit": 4},
+      {"type": "search", "query": "thinkerview nouvelle interview","limit": 4},
+      {"type": "rss", "url": "https://www.monde-diplomatique.fr/rss/","limit": 4},
+      {"type": "rss", "url": "https://aeon.co/feed.rss","limit": 4}
+    ]
+  },
+  {
+    "id": "ia_agentique",
+    "sujet": "Intelligence Artificielle, Agentique & Contrainte Électrique (Compute)",
+    "sources": [
+      {"type": "search", "query": "autonomous AI agents production architecture","limit": 4},
+      {"type": "search", "query": "AI data center power demand grid bottlenecks","limit": 4},
+      {"type": "search", "query": "AI data centers nuclear power supply contracts","limit": 4},
+      {"type": "rss", "url": "https://journal.uptimeinstitute.com//tag/ai/feed/","limit": 4},
+      {"type": "rss", "url": "https://journal.uptimeinstitute.com//tag/cooling/feed/","limit": 4},
+      {"type": "rss", "url": "https://journal.uptimeinstitute.com//tag/sustainability/feed/","limit": 4},
+      {"type": "rss", "url": "https://journal.uptimeinstitute.com//tag/outages/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.datacenterdynamics.com/en/rss/","limit": 4},
+      {"type": "rss", "url": "https://www.eia.gov/rss/todayinenergy.xml","limit": 4},
+      {"type": "rss", "url": "https://www.eia.gov/rss/press_rss.xml","limit": 4},
+      {"type": "rss", "url": "https://www.eia.gov/rss/presentations.xml","limit": 4},
+      {"type": "rss", "url": "https://genai.owasp.org/feed/","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aeia.gov+data+center+electricity+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "github", "query": "kubernetes logs agent AI", "language": "python","limit": 4},
+      {"type": "github", "query": "kubernetes logs agent AI", "language": "go","limit": 4}
+    ]
+  },
+  {
+    "id": "securite_infra_k8s",
+    "sujet": "Infrastructures Cloud, Kubernetes, Envoy & HAProxy",
+    "sources": [
+      {"type": "search", "query": "CVE envoy proxy kubernetes security 2026","limit": 4},
+      {"type": "rss", "url": "https://www.haproxy.com/feed/","limit": 4},
+      {"type": "rss", "url": "https://ubuntu.com/usn/rss.xml","limit": 4},
+      {"type": "rss", "url": "https://cert.cyber.gouv.fr/feed/","limit": 4},
+      {"type": "rss", "url": "https://kubernetes.io/feed.xml","limit": 4},
+      {"type": "rss", "url": "https://www.cert.ssi.gouv.fr/alerte/feed/","limit": 4},
+      {"type": "github", "query": "kubernetes ingress security", "language": "go","limit": 4}
+    ]
+  },
+  {
+    "id": "biodiversite_ecosystemes",
+    "sujet": "Biodiversité, Océans & Espaces Naturels",
+    "sources": [
+      {"type": "search", "query": "biodiversite ecosystems deforestation planet boundaries","limit": 4},
+      {"type": "rss", "url": "https://www.wri.org/insights/rss.xml","limit": 4},
+      {"type": "rss", "url": "https://reporterre.net/spip.php?page=backend-simple","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aunep.org+biodiversity+ecosystems+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aipbes.net+biodiversity+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4}
+    ]
+  },
+  {
+    "id": "agriculture_rendements_calories",
+    "sujet": "Agriculture, Rendements Céréaliers & Sécurité Alimentaire",
+    "sources": [
+      {"type": "rss", "url": "https://www.usda.gov/rss/latest-releases.xml","limit": 4},
+      {"type": "rss", "url": "https://www.usda.gov/rss/latest-blogs.xml","limit": 4},
+      {"type": "rss", "url": "https://www.usda.gov/rss/home.xml","limit": 4},
+      {"type": "rss", "url": "https://www.cirad.fr/rss/actualites","limit": 4},
+      {"type": "rss", "url": "https://www.cirad.fr/rss/presse","limit": 4},
+      {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/fertilizers.xml","limit": 4},
+      {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/agriculture.xml","limit": 4},
+      {"type": "search", "query": "global crop yields climate stress soil degradation food security","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Afao.org+cereal+supply+food+price+index+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "webpage", "url": "https://www.fao.org/worldfoodsituation/csdb", "max_chars": 5000},
+      {"type": "webpage", "url": "https://www.fao.org/worldfoodsituation/foodpricesindex", "max_chars": 9500},
+      {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewCropMonitor", "max_chars": 5000},
+      {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewInternationalPrices", "max_chars": 5000},
+      {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewFutureMarkets", "max_chars": 5000},
+      {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewWorldSupplyDemandOutlook", "max_chars": 5000},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Ainrae.fr+rendements+agricoles+secheresse+when%3A14d&hl=fr&gl=FR&ceid=FR:fr","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Ausda.gov+agricultural+supply+demand+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=(%22phosphate%22+OR+%22potash%22+OR+%22fertilizer+shortage%22)+AND+(supply+OR+export+OR+agriculture)&hl=en-US&gl=US&ceid=US:en", "limit": 4}
+    ]
+  },
+  {
+    "id": "politique_grandes_puissances",
+    "sujet": "Politique Nationale, Gouvernance & Bascules Législatives (G20)",
+    "sources": [
+      {"type": "search", "query": "domestic politics legislative shift fiscal policy major economies US China EU India","limit": 4},
+      {"type": "rss", "url": "https://www.politico.eu/feed/","limit": 4},
+      {"type": "rss", "url": "https://thehill.com/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.thehindu.com/news/national/feeder/default.rss","limit": 4},
+      {"type": "search", "query": "site:xinhuanet.com domestic policy reform economy","limit": 4}
+    ]
+  },
+  {
+    "id": "societal_territoires_local",
+    "sujet": "Sociétal, Dynamiques Territoriales & Vie Quotidienne (Monde)",
+    "sources": [
+      {"type": "search", "query": "cost of living housing crisis urban challenges middle class US Europe BRICS","limit": 4},
+      {"type": "rss", "url": "https://www.lagazettedescommunes.com/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.insee.fr/fr/flux/1","limit": 4},
+      {"type": "rss", "url": "https://www.tagesschau.de/inland/gesellschaft/index~rss2.xml","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Apewresearch.org+cost+of+living+housing+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "search", "query": "site:livemint.com india rural urban inflation jobs","limit": 4},
+      {"type": "search", "query": "site:agenciabrasil.ebc.com.br custo de vida","limit": 4},
+      {"type": "rss", "url": "https://www.jeuneafrique.com/feed/", "keywords": ["société", "urbanisation", "pouvoir d'achat", "logement", "afrique"], "limit": 4}
+    ]
+  },
+  {
+    "id": "veille_logicielle_ops",
+    "sujet": "Veille Logicielle, Releases & Incidents Majeurs (Ops)",
+    "sources": [
+      {"type": "rss", "url": "https://github.com/haproxy/haproxy/releases.atom","limit": 4},
+      {"type": "rss", "url": "https://github.com/squid-cache/squid/releases.atom","limit": 4},
+      {"type": "rss", "url": "https://github.com/envoyproxy/envoy/releases.atom","limit": 4},
+      {"type": "rss", "url": "https://github.com/rancher/rke2/releases.atom","limit": 4},
+      {"type": "rss", "url": "https://github.com/kubernetes/kubernetes/releases.atom","limit": 4},
+      {"type": "rss", "url": "https://ubuntu.com/usn/rss.xml","limit": 4},
+      {"type": "rss", "url": "https://community.letsencrypt.org/c/api-announcements/18.rss","limit": 4},
+      {"type": "rss", "url": "https://www.recordedfuture.com/feed","limit": 4},
+      {"type": "rss", "url": "https://www.cert.ssi.gouv.fr/alerte/feed/","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=%22Huawei+Cloud+Stack%22+OR+%22Huawei+CCE%22+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=(outage+OR+panne)+AND+(Microsoft+OR+Cloudflare+OR+AWS+OR+Azure)+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "search", "query": "Ubuntu 24.04 26.04 LTS release notes kernel CVE","limit": 4}
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+Tu es un ingénieur infrastructure et DevSecOps senior (spécialisé Linux Ubuntu LTS, HAProxy L4, Envoy Proxy, Kubernetes RKE2/CCE, PKI/ACME et architectures Cloud hybrides).
+
+Analyse EXCLUSIVEMENT les données brutes suivantes pour le sujet : "{sujet}".
+
+---
+DONNÉES BRUTES :
+{donnees}
+---
+
+RÈGLE TEMPORELLE ABSOLUE (FENÊTRE DE 2 SEMAINES MAX) :
+En te basant sur la date du jour indiquée en haut de ce message, applique un filtre impitoyable : **ignore et supprime tout élément (release, CVE, panne, annonce) datant de plus de 14 jours**. Si une date est absente ou ambiguë et semble ancienne, écarte-la.
+
+INSTRUCTIONS DE RÉDACTION (Style : Bulletin opérationnel sec, précis, zéro blabla) :
+- Ne génère aucun titre H1 ('#') ni H2 ('##').
+- Regroupe les informations retenues (< 14 jours) selon les 3 rubriques exactes suivantes (omets une rubrique si elle est vide sur la période) :
+
+### 📦 Releases & Évolutions Logicielles
+Liste uniquement les nouvelles versions mineures/majeures ou patchs notables concernant : **HAProxy**, **Squid**, **Envoy Proxy**, **Kubernetes (Core, RKE2, CCE)**, **Ubuntu (24.04 / 26.04 LTS)**, **Huawei Cloud Stack (HCS)** et **Let's Encrypt**. Précise le numéro de version exact, la date et l'impact opérationnel (breaking change, correctif critique, nouvelle fonctionnalité).
+
+### 🚨 Sécurité, CVE & Menaces Actives
+Synthétise les alertes de sécurité critiques, campagnes d'attaques actives (Recorded Future, CERT-FR) ou failles affectant directement cette stack. Indique : composant touché, vecteur/sévérité, et version corrective.
+
+### 💥 Incidents & Pannes Mondiales Majeures
+Signale toute panne d'infrastructure majeure d'envergure mondiale (hyperscalers, DNS, CDN, cloud providers, Microsoft/Azure, Cloudflare, etc.) survenue dans les 14 derniers jours avec sa cause racine si connue.
+
+- Pas de phrase d'introduction ni de conclusion générique.
+- Termine obligatoirement par la liste des liens sources retenus :
+
+Sources :
+- [Composant / Source - Titre](URL)

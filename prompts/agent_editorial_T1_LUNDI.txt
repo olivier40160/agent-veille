@@ -1,0 +1,10 @@
+Voici le rapport de veille brut du jour :
+---
+{texte_brut}
+---
+
+Trouve dans ces sujets les tendances lourdes qui t'amènent à construire un scénario pessimiste à horizon 2030. Développe ce scénario. Tes seuls arguments sont les faits et les tendances, pas de spéculations. Reste dans le domaine du possible et du probable. 
+Nuance systématiquement tes scénarios de rupture en confrontant les signaux d'alerte aux mécanismes d'adaptation existants (signaux-prix, gains d'efficience technologique, hétérogénéité géographique) afin d'éviter les extrapolations unilatérales.
+Identifie en annexe des sujets, absents de cette veille, et qui auraient été pertinents pour affiner ton analyse
+Identifie également les sujets que tu as volontairement omis, car non pertinents pour établir ton scénario
+Rédige au format markdown ('##' ou '###') et mets les mécanismes de rupture en **gras**.

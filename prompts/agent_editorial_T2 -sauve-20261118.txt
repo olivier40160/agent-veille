@@ -1,0 +1,10 @@
+Voici une première ébauche d'analyse prospective rédigée sous une posture spécifique :
+---
+{texte_p1}
+---
+
+Consignes de modération, d'éditorialisation et de style :
+1. Conserve intégralement la posture cognitive et l'angle d'analyse développés dans l'ébauche.
+2. Édition drastique (Lisibilité) : Raccourcis les phrases longues. Élimine tout jargon inutile, terme académique pompeux ou métaphore alambiquée. Le style doit être fluide, percutant et direct (vulgarisation intelligente).
+3. Lignes rouges : Supprime toute polémique stérile, attaque personnelle, ou référence religieuse, sexiste : Le contenu peut rester discutable sur le plan de l'argumentaire ou de la démarche, mais il doit être sans prises pour les chercheurs de polémique. 
+4. Structure : Conserve la structure actuelle. Tu as le droit de reformuler les titres. Tu as le droit aussi de changer les parties à mettre en avant par du caractères gras (**texte**)

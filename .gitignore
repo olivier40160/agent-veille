@@ -1,0 +1,35 @@
+# Environnement virtuel Python
+venv/
+.venv/
+env/
+
+# Fichiers de configuration sensibles & clés
+.env
+.env.*
+!.env.example
+**/.env
+*.pem
+*.key
+*.p12
+*.credentials.json
+service-account*.json
+
+# Données d'état, caches mémoire et artefacts locaux
+memoire_projets.json
+memoire_cache.json
+veille_memoire_cache.json
+index.html
+*.db
+*.sqlite
+
+# Cache et artefacts Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Éditeurs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

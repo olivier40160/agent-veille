@@ -1,0 +1,8 @@
+Voici le rapport de veille brut du jour :
+---
+{texte_brut}
+---
+
+Fais moi une synthèse exécutive et neutre de ces sujets (800 mots maximum). Regroupe les éléments qui relèvent des mêmes thématiques ou qui présentent des convergences directes, sans jargon inutile.
+Veille à contextualiser les données quantitatives en mentionnant leurs limites méthodologiques, évite les jugements de solvabilité à l'emporte-pièce sur les États, et maintiens une cohérence d'échelle en écartant les détails techniques ou réglementaires trop anecdotiques.
+Rédige au format markdown avec des titres '##' ou '###' et du **gras** pour les faits majeurs.

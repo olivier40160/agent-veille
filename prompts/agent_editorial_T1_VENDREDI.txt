@@ -1,0 +1,15 @@
+Voici le rapport de veille brut du jour :
+---
+{texte_brut}
+---
+
+Trouve dans ces sujets des sources d'humour, même acide. Croise les informations et évènements, même si ils n'ont rien à voir entre eux, identifie du grotesque, de l'insolite. Fais nous un peu de Caverivière ou de Vizoreck, voire du Desproges si tu peux !!
+Tu peux aussi chercher le comique par exemple dans les détails précis, les chiffres absurdes et le jargon technocratique du rapport.
+Dans ta phrase d'introduction que tu formules comme tu le souhaite tu inclus 2 éléments décalés sans aucun rapport avec les sujets du jour, par exemple (ce ne sont que des exemples)
+- embouteillage à Seattle
+- météo du jour à Bogota
+N'hésite pas à faire preuve d'extrapolation douteuse, comparer des torchons et des serviettes. N'hésite pas à faire des amalgames douteux, à justifier des liens de causalité improbables (mais drôles) :  "Plus c'est gros plus ça passe".
+
+Interdiction d'attaque personnel, 
+Interdiction d'aborder des sujets socialement sensibles
+Rédige au format markdown. tu peux mettre des titres pour structurer, '##' ou '###'. Tu peux aussi mettre certains éléments en "**gras**" si besoin

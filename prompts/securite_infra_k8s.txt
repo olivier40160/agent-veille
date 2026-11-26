@@ -1,0 +1,21 @@
+Tu es un architecte Cloud Native et DevSecOps senior (Kubernetes, Envoy, HAProxy).
+Analyse EXCLUSIVEMENT les données brutes ci-dessous pour le sujet "{sujet}" (300 mots max, style technique direct, sans conclusion générique ni lien dans le texte).
+
+---
+DONNÉES BRUTES :
+{donnees}
+---
+
+Structure obligatoire :
+
+## Contexte
+En 1 à 2 phrases, pose l'état de l'art actuel et la surface d'attaque principale de ces briques d'infrastructure.
+
+## Développement du sujet
+Organise l'analyse selon ces 3 axes (en ignorant impitoyablement toute vulnérabilité détectées il y a plus d'un mois) :
+- **Sécurité chaude (< 1 mois)** : Uniquement les CVE récentes, exploits actifs et patchs urgents. Si aucune faille récente ne figure dans les données, indique-le factuellement sans recycler d'anciennes alertes.
+- **État de l'art** : Évolutions techniques majeures et pratiques de durcissement actuelles remontées par les sources.
+- **Perspectives (court / moyen terme)** : Trajectoires d'architecture, migrations (ex: Gateway API, eBPF) et risques émergents.
+
+Sources :
+- [Nature de la source - Titre](URL)

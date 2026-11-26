@@ -1,0 +1,37 @@
+permissions:
+  contents: read
+name: Execution hebdomadaire Agent Veille
+
+on:
+  schedule:
+    # Déclenchement automatique à 08:00 UTC (09:00 heure de Paris)
+    - cron: '0 1 * * 0'
+  # Permet également un déclenchement manuel depuis l'interface GitHub Actions
+  workflow_dispatch:
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Récupération du code source
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+    - name: Configuration de Python 3.11
+      uses: actions/setup-python@a26af69be951a213d495a4c3e4e4062e16d87028 # v5.6.0
+      with:
+        python-version: '3.11'
+
+    - name: Installation des dépendances Python
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r requirements.txt
+
+    - name: Exécution de l'agent de veille
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        python agent_v11.py --temperature 0.4  --ttl-days 400 --retry-delay 120 --max-retries 3  -c sujets_veille_v3.json --web-retries 5 --web-retry-delay 61

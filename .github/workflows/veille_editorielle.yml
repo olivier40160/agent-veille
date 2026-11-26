@@ -1,0 +1,70 @@
+permissions:
+  contents: read
+name: Agent Éditorial Multi-Températures
+
+on:
+  schedule:
+    # Exécution automatique le dimanche à 09:00 UTC (1h après la veille de 08:30 UTC)
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-editoriel:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout du code repository
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+    - name: Configuration de Python 3.11
+      uses: actions/setup-python@a26af69be951a213d495a4c3e4e4062e16d87028 # v5.6.0
+      with:
+        python-version: '3.11'
+
+    - name: Installation des dépendances
+      run: |
+        python -m pip install --upgrade pip
+        pip install google-genai requests
+
+    - name: Exécution de l'analyse éditoriale selon le jour
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+      run: |
+        JOUR_NUM=$(date +%u)
+        
+        case $JOUR_NUM in
+          1)
+            echo "🟢 [LUNDI] Focus : Vue Pessimiste"
+            python agent_editoriel.py -j LUNDI -t1 0.4 -t2 0.2  -o BOTH -s "Pessimiste" # -o T1     -o T2   -o BOTH
+            ;;
+          2)
+            echo "🟢 [MARDI] Focus : Vue Perspectives"
+            python agent_editoriel.py -j MARDI -t1 0.65 -t2 0.2  -o BOTH -s "Perspectives"  # -o T1     -o T2   -o BOTH
+            ;;
+          3)
+            echo "🟢 [MERCREDI] Focus : Vue Philosophe"
+            python agent_editoriel.py -j MERCREDI -t1 0.95 -t2 0.2  -o BOTH -s "Philosophe" # -o T1     -o T2   -o BOTH
+            ;;
+          4)
+            echo "🟢 [JEUDI] Focus : Vue Auteur SF"
+            python agent_editoriel.py -j JEUDI -t1 0.80 -t2 0.2  -o BOTH -s "Auteur SF"  # -o T1     -o T2   -o BOTH
+            ;;
+          5)
+            echo "🟢 [VENDREDI] Focus : Vue Humoriste"
+            python agent_editoriel.py -j VENDREDI -t1 0.90 -t2 0.2  -o BOTH -s "Humoriste" # -o T1     -o T2   -o BOTH
+            ;;
+          6)
+            echo "🟢 [SAMEDI] Focus : Vue Optimiste"
+            python agent_editoriel.py -j SAMEDI -t1 0.4 -t2 0.2  -o BOTH -s "Optimiste" # -o T1     -o T2   -o BOTH
+            ;;
+          7)
+            echo "🟢 [DIMANCHE] Focus : Vue Synthèse"
+            python agent_editoriel.py -j DIMANCHE -t1 0.2 -t2 0.2  -o BOTH -s "Synthèse neutre" # -o T1     -o T2   -o BOTH
+            ;;
+          *)
+            echo "⚠️ Jour inconnu ($JOUR_NUM), lancement par défaut Synthèse neutre"
+            python agent_editoriel.py -j DIMANCHE -t1 0.70 -t2 0.2  -o BOTH -s "Synthèse neutre" # -o T1     -o T2   -o BOTH
+            ;;
+        esac
