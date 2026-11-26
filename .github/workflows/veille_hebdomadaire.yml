@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - name: Récupération du code source
-      uses: actions/checkout@v5
+      uses: actions/checkout@v7
 
     - name: Configuration de Python 3.11
       uses: actions/setup-python@v6
