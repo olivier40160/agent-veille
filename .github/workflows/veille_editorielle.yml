@@ -5,7 +5,7 @@ name: Agent Éditorial Multi-Températures
 on:
   schedule:
     # Exécution automatique le dimanche à 09:00 UTC (1h après la veille de 08:30 UTC)
-    - cron: '0 3 * * *'
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 jobs:
