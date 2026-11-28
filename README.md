@@ -280,6 +280,19 @@ git commit -m "Mise à jour agent_v11 et configuration veille"
 git push
 ```
 
+### 6. Mémo Git pour supprimer les commits si besoin
+```powershell
+git checkout --orphan clean-main
+git add -A
+git status
+git commit -m "Initial public release: automated strategic and technical monitoring pipeline"
+git branch -D main
+git branch -m main
+git push --force origin main
+git branch --set-upstream-to=origin/main main
+
+```
+
 ---
 
 ## 🧩 Configuration des Sources (`sujets_veille_v3.json`)
