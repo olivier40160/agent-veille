@@ -5,7 +5,7 @@ name: Execution hebdomadaire Agent Veille
 on:
   schedule:
     # Déclenchement automatique à 08:00 UTC (09:00 heure de Paris)
-    - cron: '0 1 1 * *'
+    - cron: '0 1 * * 0'
   # Permet également un déclenchement manuel depuis l'interface GitHub Actions
   workflow_dispatch:
 
