@@ -7,6 +7,8 @@
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aiea.org+emissions+climate+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aunep.org+climate+emissions+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://www.carbonbrief.org/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_GM-TPeAx9kKS1CaPwGPow","keywords": ["changement","émissions","climat","CO2"],"limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPCHdD9NMu_3-x3djVvSKng","keywords": ["changement","émissions","climat","CO2"],"limit": 4},
       {"type": "rss", "url": "https://www.realclimate.org/?s=AMOC&feed=atom","limit": 4},
       {"type": "rss","url": "https://www.carbonbrief.org/feed/","keywords": ["china", "america", "europe", "india", "Indonesia", "nigeria"], "limit": 10},
       {"type": "rss","url": "https://www.carbonbrief.org/feed/","keywords": ["tipping", "AMOC", "permafrost", "Amazon", "methane", "circulation"], "limit": 4}
@@ -18,6 +20,7 @@
     "sources": [
       {"type": "search", "query": "critical minerals supply chain lithium rare earths","limit": 4},
       {"type": "rss", "url": "https://www.mining.com/feed/","limit": 4},
+      {"type": "search", "query": "Philippe Bihouix dernières interview","keywords": ["matières","mine","métaux","minéraux","low"],"limit": 10},
       {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/metals.xml","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Acsis.org+critical+minerals+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "search", "query": "site:ceew.in critical minerals global south","limit": 4}
@@ -28,10 +31,13 @@
     "sujet": "Énergie, Transition, EROI & Déplétion Amont",
     "sources": [
       {"type": "search", "query": "transition energetique contraintes physiques EROI net energy","limit": 4},
+      {"type": "search", "query": "Philippe Bihouix dernières interview","keywords": ["énergie","transition","combustible"],"limit": 10},
       {"type": "rss", "url": "https://jancovici.com/feed/","limit": 4},
       {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCTObjynP95JgicJSTiPlbiw","limit": 4},
       {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCGv05UJHKH5EclUmms753Zw","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNovJemYKcdKt7PDdptJZfQ","limit": 4},
       {"type": "search", "query": "site:youtube.com \"Jean-Marc Jancovici\" video","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_GM-TPeAx9kKS1CaPwGPow","keywords": ["énergie","transition","combustible"],"limit": 4},
       {"type": "rss", "url": "https://theshiftproject.org/feed/","limit": 4},
       {"type": "rss", "url": "https://ieefa.org/rss.xml","limit": 4},
       {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/oil.xml","limit": 4},
@@ -154,6 +160,9 @@
     "sources": [
       {"type": "search", "query": "mutations anthropologiques philosophie technique","limit": 4},
       {"type": "rss", "url": "https://thinkerview.com/feed/","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQgWpmt02UtJkyO32HGUASQ","limit": 5},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_GM-TPeAx9kKS1CaPwGPow","keywords": ["société","résilience","culture","débat","prospective"],"limit": 4},
+      {"type": "search", "query": "Philippe Bihouix dernières interview","keywords": ["décroissance","low","Prospective"],"limit": 10},
       {"type": "search", "query": "thinkerview nouvelle interview","limit": 4},
       {"type": "rss", "url": "https://www.monde-diplomatique.fr/rss/","limit": 4},
       {"type": "rss", "url": "https://aeon.co/feed.rss","limit": 4}
@@ -200,6 +209,7 @@
       {"type": "search", "query": "biodiversite ecosystems deforestation planet boundaries","limit": 4},
       {"type": "rss", "url": "https://www.wri.org/insights/rss.xml","limit": 4},
       {"type": "rss", "url": "https://reporterre.net/spip.php?page=backend-simple","limit": 4},
+      {"type": "rss", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPCHdD9NMu_3-x3djVvSKng","keywords": ["biodiversité","environnement","océan","vivant"],"limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aunep.org+biodiversity+ecosystems+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aipbes.net+biodiversity+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4}
     ]
