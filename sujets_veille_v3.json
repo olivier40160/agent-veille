@@ -20,6 +20,7 @@
     "sources": [
       {"type": "search", "query": "critical minerals supply chain lithium rare earths","limit": 4},
       {"type": "rss", "url": "https://www.mining.com/feed/","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aiea.org+critical+minerals+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "search", "query": "Philippe Bihouix dernières interview","keywords": ["matières","mine","métaux","minéraux","low"],"limit": 10},
       {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/metals.xml","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Acsis.org+critical+minerals+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
@@ -41,6 +42,7 @@
       {"type": "rss", "url": "https://theshiftproject.org/feed/","limit": 4},
       {"type": "rss", "url": "https://ieefa.org/rss.xml","limit": 4},
       {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/oil.xml","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aiea.org+energy+security+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://www.spglobal.com/content/spglobal/energy/us/en/rss/electric-power.xml","limit": 4},
       {"type": "rss", "url": "https://ourworldindata.org/atom.xml","limit": 4},
       {"type": "rss", "url": "https://oilprice.com/rss/main","limit": 4},
@@ -54,8 +56,11 @@
     "sources": [
       {"type": "search", "query": "global groundwater depletion aquifer stress","limit": 4},
       {"type": "search", "query": "river basin crisis","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aiea.org+energy+water+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Awri.org+water+stress+drought+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aunesco.org+water+report+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
+      {"type": "rss","url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss","limit": 10,"keywords": ["water", "groundwater", "GRACE", "drought", "aquifer", "hydrology"]},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Ausgs.gov+(groundwater+OR+aquifer+OR+water+resources)+when%3A30d&hl=en-US&gl=US&ceid=US:en", "limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Abrgm.fr+nappes+eau+secheresse+when%3A14d&hl=fr&gl=FR&ceid=FR:fr","limit": 4}
     ]
   },
@@ -151,7 +156,8 @@
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Ained.fr+fecondite+vieillissement+when%3A14d&hl=fr&gl=FR&ceid=FR:fr","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aun.org+world+population+fertility+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aworldbank.org+aging+population+labor+force+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
-      {"type": "rss", "url": "https://www.ecdc.europa.eu/en/taxonomy/term/2942/feed", "limit": 4}
+      {"type": "rss", "url": "https://www.ecdc.europa.eu/en/taxonomy/term/2942/feed", "limit": 4},
+      {"type": "rss","url": "https://www.un.org/sustainabledevelopment/blog/tag/population/feed/","limit": 6}
     ]
   },
   {
@@ -180,6 +186,7 @@
       {"type": "rss", "url": "https://journal.uptimeinstitute.com//tag/sustainability/feed/","limit": 4},
       {"type": "rss", "url": "https://journal.uptimeinstitute.com//tag/outages/feed/","limit": 4},
       {"type": "rss", "url": "https://www.datacenterdynamics.com/en/rss/","limit": 4},
+      {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Aiea.org+artificial+intelligence+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://www.eia.gov/rss/todayinenergy.xml","limit": 4},
       {"type": "rss", "url": "https://www.eia.gov/rss/press_rss.xml","limit": 4},
       {"type": "rss", "url": "https://www.eia.gov/rss/presentations.xml","limit": 4},
@@ -229,11 +236,13 @@
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Afao.org+cereal+supply+food+price+index+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "webpage", "url": "https://www.fao.org/worldfoodsituation/csdb", "max_chars": 5000},
       {"type": "webpage", "url": "https://www.fao.org/worldfoodsituation/foodpricesindex", "max_chars": 9500},
+      {"type": "rss","url": "https://www.fao.org/feeds/fao-newsroom-rss","limit": 4,"keywords": ["cereal", "food price", "AMIS", "GIEWS", "yield", "crops", "agriculture"]},
       {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewCropMonitor", "max_chars": 5000},
       {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewInternationalPrices", "max_chars": 5000},
       {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewFutureMarkets", "max_chars": 5000},
       {"type": "webpage", "url": "https://www.amis-outlook.org/market-monitor#OverviewWorldSupplyDemandOutlook", "max_chars": 5000},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Ainrae.fr+rendements+agricoles+secheresse+when%3A14d&hl=fr&gl=FR&ceid=FR:fr","limit": 4},
+      {"type": "rss","url": "https://news.google.com/rss/search?q=site%3Ainrae.fr+(rendement+OR+intrants+OR+agronomie)+when%3A30d&hl=fr&gl=FR&ceid=FR:fr","limit": 4 },
       {"type": "rss", "url": "https://news.google.com/rss/search?q=site%3Ausda.gov+agricultural+supply+demand+when%3A14d&hl=en-US&gl=US&ceid=US:en","limit": 4},
       {"type": "rss", "url": "https://news.google.com/rss/search?q=(%22phosphate%22+OR+%22potash%22+OR+%22fertilizer+shortage%22)+AND+(supply+OR+export+OR+agriculture)&hl=en-US&gl=US&ceid=US:en", "limit": 4}
     ]
